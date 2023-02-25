@@ -16,7 +16,7 @@ Docker Image can be compared to a template that is used to create Docker Contain
 What are Docker containers?
 Docker Containers are running instances of Docker Images, which contain all the packages necessary for running an application.
 
-**How to install Docker on your localmachine and get the some containers running outside of Gitpod / Codespaces.**
+--**How to install Docker on your localmachine and get the some containers running outside of Gitpod / Codespaces.**
 
 To run docker on your local machine go to https://www.docker.com/products/docker-desktop/ and install docker desktop.
 
@@ -26,11 +26,13 @@ To run docker on your local machine go to https://www.docker.com/products/docker
 So this is how the docker desktop looks like
 
 
-Now to run containers on this docker dekstop, go to your command prompt/ terminal and type ```docker run -d -p 80:80 docker/getting-started```
+--Now to run containers on this docker dekstop, go to your command prompt/ terminal and type ```docker run -d -p 80:80 docker/getting-started```
+
 ![Screenshot (130)](https://user-images.githubusercontent.com/59307860/221365077-add2699d-7c41-4712-93d5-ce761e8796bf.png)
 
 
-Lets understand what the command means: ```docker run``` is used to create a conatiner from the image specified. 
+--Lets understand what the command means: ```docker run``` is used to create a conatiner from the image specified. 
+
 -d menas in detach mode
 -p stands for ports the first argument 80 speifies the port we want to run the container and the second argument is the port of the conatiner. 
 docker/getting-started is the name of the docker image
