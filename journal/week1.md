@@ -16,6 +16,9 @@ Docker Image can be compared to a template that is used to create Docker Contain
 **What are Docker containers?**
 Docker Containers are running instances of Docker Images, which contain all the packages necessary for running an application.
 
+**What is Docker Compose?**
+Docker Compose is a YAML file that contains details about the services, networks, and volumes to be used in setting up an application. Using Docker Compose, you can create separate containers, host them, and communicate with them. For communication between containers, each container will expose a port. 
+
 --**How to install Docker on your localmachine and get the some containers running outside of Gitpod / Codespaces.**
 
 To run docker on your local machine go to https://www.docker.com/products/docker-desktop/ and install docker desktop.
