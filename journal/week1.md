@@ -34,7 +34,9 @@ So this is how the docker desktop looks like
 --Lets understand what the command means: ```docker run``` is used to create a conatiner from the image specified. 
 
 -d menas in detach mode
+
 -p stands for ports the first argument 80 speifies the port we want to run the container and the second argument is the port of the conatiner. 
+
 docker/getting-started is the name of the docker image
 
 
