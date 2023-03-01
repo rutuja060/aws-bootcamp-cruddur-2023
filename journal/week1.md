@@ -7,7 +7,7 @@ Containerizing your application will allow you to run it in any environment.
 
 So what is docker, it is a platform for building, running, and managing containers.
 
-**What is Dockerfile?**
+## **What is Dockerfile?**
 Dockerfile is a text document containing a list of instructions to build an image. ```docker build``` is the command that is used to build docker images from the given dockerfile.
 
 **What is Docker Image?**
@@ -19,7 +19,7 @@ Docker Containers are running instances of Docker Images, which contain all the 
 **What is Docker Compose?**
 Docker Compose is a YAML file that contains details about the services, networks, and volumes to be used in setting up an application. Using Docker Compose, you can create separate containers, host them, and communicate with them. For communication between containers, each container will expose a port. 
 
---**How to install Docker on your localmachine and get the some containers running outside of Gitpod / Codespaces.**
+## --**How to install Docker on your localmachine and get the some containers running outside of Gitpod / Codespaces.**
 
 To run docker on your local machine go to https://www.docker.com/products/docker-desktop/ and install docker desktop.
 
